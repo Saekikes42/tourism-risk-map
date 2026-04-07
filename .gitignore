@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Databases & local files
+*.sqlite
+*.db
+models/*.pkl
+ROC.png
+track_images/
+track_images_augmented/
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/

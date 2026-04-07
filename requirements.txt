@@ -1,0 +1,38 @@
+# Основные библиотеки данных
+pandas
+numpy
+scipy
+scikit-learn
+joblib
+
+# Работа с базой данных (PostgreSQL)
+SQLAlchemy
+# psycopg2-binary
+pg8000
+
+# Визуализация и интерфейс
+streamlit
+streamlit-folium
+folium
+branca
+matplotlib
+seaborn
+plotly
+pydeck
+
+# API и Веб-сервисы
+fastapi
+pydantic
+uvicorn
+requests
+beautifulsoup4
+
+# Гео-аналитика и картография
+geopandas
+shapely
+contextily
+overpy
+
+# Дополнительные инструменты (Аугментация/Интерпретация)
+albumentations
+shap
