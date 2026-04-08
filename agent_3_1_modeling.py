@@ -204,10 +204,4 @@ if 'model_training_results' in st.session_state:
         joblib.dump(pipe, os.path.join(MODELS_DIR, "risk_classifier.pkl"))
         st.success("Файловая запись успешно обновлена: models/risk_classifier.pkl")
 
-st.markdown("---")
-st.subheader("Интеграция с Airflow")
-st.write("Для реализации непрерывного обучения (continuous training) с помощью Airflow рекомендуется следующий подход:")
-st.write("1. Создать DAG, который запускается по расписанию (например, ежедневно).")
-st.write("2. Первый шаг DAG: проверка наличия новых данных в базе.")
-st.write("3. Второй шаг DAG: запуск Python-скрипта (через PythonOperator), который выполняет те же шаги, что и это приложение (обучение, выбор лучшей модели).")
-st.write("4. Третий шаг DAG: автоматическая замена файла .pkl, если метрики новой модели выше текущей продовой версии.")
+
